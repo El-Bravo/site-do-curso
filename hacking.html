@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sociedade Anônima — Hacking</title>
+  <link rel="shortcut icon" href="img/favicons/mascara_anonymous.ico" type="image/x-icon">
+  <meta name="description" content="Guia introdutório sobre hacking ético: conceitos, técnicas, processos, áreas relacionadas e práticas seguras para aprender com responsabilidade.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo"><img src="img/lobo_logo3.png" alt="Logo Sociedade Anônima"></div>
+        <h1>Sociedade Anônima</h1>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="hacking.html" class="active">Hacking</a>
+        <a href="seguranca.html">Segurança</a>
+        <a href="hacktivismo.html">Hacktivismo</a>
+      </nav>
+
+      <div class="social">
+        <a href="https://www.instagram.com/sraineda?igsh=NjlxanpuaTRmZ3Vk" target="_blank" rel="external" title="Instagram"><img src="img/favicons/insta.svg" alt="Instagram"></a>
+        <a href="https://github.com/El-Bravo" target="_blank" rel="external" title="GitHub"><img src="img/favicons/github.svg" alt="GitHub"></a>
+        <a href="https://api.whatsapp.com/send?phone=553183918272" target="_blank" rel="external" title="WhatsApp"><img src="img/favicons/whatsapp.svg" alt="WhatsApp"></a>
+        <a href="#" title="TikTok"><img src="img/favicons/tiktok.svg" alt="TikTok"></a>
+
+        <div class="dropdown">
+          <button class="btn" id="btn-fale" data-hover="Fale Conosco (Fale com Brunno 😉)">
+            <span class="label">Fale Conosco</span> <span class="seta">▾</span>
+          </button>
+          <div class="dropdown-content">
+            <a href="https://www.instagram.com/brunno_vieira._?utm_source=qr&igsh=am5ocG82N240MHJk" target="_blank" rel="external">Instagram</a>
+            <a href="https://github.com/El-Bravo" target="_blank" rel="external">GitHub</a>
+            <a href="https://api.whatsapp.com/send?phone=553193484068" target="_blank" rel="external">WhatsApp</a>
+            <a href="https://www.tiktok.com/@brunno_vieira_?_r=1&_t=ZS-917f8lQz9OS" target="_blank" rel="external">TikTok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main id="hacking-page" class="page page--hacking">
+  <header class="page-header container" role="banner">
+    <h1>🕵️‍♀️ Hacking</h1>
+    <p class="lead">Conceitos, “chapéus”, metodologia e ética do hacking.</p>
+  </header>
+
+  <!-- Fundamentos -->
+  <section class="intro container" aria-labelledby="fundamentos">
+    <h2 id="fundamentos">Fundamentos</h2>
+    <p>
+      <strong>Hacking</strong> é compreender a fundo como sistemas funcionam e, com autorização,
+      <strong>testar sua segurança</strong>. A técnica é neutra; a intenção e a permissão definem se a prática é ética e legal.
+    </p>
+  </section>
+
+  <!-- Chapéus -->
+  <section class="hats container" aria-labelledby="chap">
+    <h2 id="chap">Os “chapéus”</h2>
+    <ul class="hat-list">
+      <li><strong>🎩 White Hat 🎩</strong> — profissionais éticos (pentest, pesquisa) com permissão.</li>
+      <li><strong>🎩 Black Hat 🎩</strong> — invasão maliciosa sem autorização.</li>
+      <li><strong>🎩 Grey Hat 🎩</strong> — zona cinzenta (pode agir sem permissão, intenção nem sempre maliciosa).</li>
+      <li><strong>🎩 Red/Blue/Purple Team 🎩</strong> — ofensivo/defensivo/time híbrido em exercícios de segurança.</li>
+      <li><strong>🎩 Script Kiddie 🎩</strong> — uso de ferramentas sem entendimento profundo.</li>
+      <li><strong>🎩 Hacktivista 🎩</strong> — motivação político-social (legalidade controversa).</li>
+    </ul>
+  </section>
+
+  <!-- Metodologia -->
+  <section class="process container" aria-labelledby="metodologia">
+    <h2 id="metodologia">Metodologia (alto nível)</h2>
+    <ol class="steps">
+      <li><strong>Reconhecimento</strong> — coletar informações públicas (domínios, IPs, pessoas, superfícies).</li>
+      <li><strong>Enumeração</strong> — levantar portas, serviços, versões, endpoints.</li>
+      <li><strong>Avaliação</strong> — relacionar serviços ↔ vulnerabilidades conhecidas.</li>
+      <li><strong>Exploração</strong> — só em escopo autorizado, para comprovar risco.</li>
+      <li><strong>Pós-exploração</strong> — entender impacto, coletar evidências controladas.</li>
+      <li><strong>Relatório e remediação</strong> — reprodutibilidade, priorização e correções.</li>
+    </ol>
+    <p class="lead">
+      ⚠️ <strong>Sempre</strong> com autorização por escrito e ambiente controlado.
+    </p>
+  </section>
+
+  <!-- Onde praticar com segurança -->
+  <section class="container" aria-labelledby="labs">
+    <h2 id="labs">Prática segura</h2>
+    <ul class="hat-list">
+      <li>Plataformas de laboratório (CTFs, boxes, trilhas) com regras claras de uso.</li>
+      <li>Ambiente local com VMs/containers para testes controlados.</li>
+      <li>Programas de bug bounty — estritamente dentro do escopo publicado.</li>
+    </ul>
+  </section>
+
+  <!-- Ética e legalidade -->
+  <section class="ethics-legal container" aria-labelledby="etica">
+    <h2 id="etica">Ética e legalidade</h2>
+    <ul>
+      <li><strong>Consentimento</strong> e <strong>escopo</strong> definidos por escrito.</li>
+      <li>Coleta mínima de dados, foco em evidência técnica e privacidade.</li>
+      <li>Divulgação responsável e comunicação com o proprietário do sistema.</li>
+    </ul>
+  </section>
+
+  <!-- Leituras de referência -->
+  <section class="resources container" aria-labelledby="refs">
+    <h2 id="refs">Para estudar</h2>
+    <ul>
+      <li>Modelos de ameaça, superfície de ataque e princípios de defesa.</li>
+      <li>Redes (TCP/IP), Linux, programação (Python/JS), protocolos (HTTP/HTTPS).</li>
+      <li>Segurança web, mobile, redes, nuvem, engenharia reversa, forense.</li>
+    </ul>
+  </section>
+</main>
+
+
+  <!-- Botão e menu lateral retrátil -->
+  <button class="aside-handle" id="asideToggle" aria-label="Abrir painel de notícias" aria-expanded="false" aria-controls="leftPanel" title="Abrir menu">
+    ☰
+  </button>
+
+  <aside id="leftPanel" class="left-panel" aria-label="Painel de notícias">
+    <div class="astro-wrap" aria-hidden="true">
+      <img src="/assets/astronauta.svg" alt="Astronauta decorativo" loading="lazy">
+    </div>
+
+    <h3>📰 Últimas</h3>
+    <ul class="news-list">
+      <li><a href="#" target="_blank">Título da notícia 1</a></li>
+      <li><a href="#" target="_blank">Notícia 2</a></li>
+      <li><a href="#" target="_blank">Notícia 3</a></li>
+    </ul>
+  </aside>
+
+  <!-- Astronauta flutuante direito -->
+  <div class="side-astronauta" aria-hidden="true">
+    <img src="assets/img/novo.svg" alt="Astronauta decorativo" class="astronauta">
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Sociedade Anônima — Projeto Educativo — Feito por 
+        <span class="autor">Bruno</span>, 
+        <span class="autor">Dulce</span> e 
+        <span class="autor">Celi</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

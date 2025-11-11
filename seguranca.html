@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sociedade Anônima — Segurança da Informação</title>
+  <link rel="shortcut icon" href="img/favicons/favicon_hacker_verde.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">
+          <img src="img/lobo_logo3.png" alt="Logo Sociedade Anônima">
+        </div>
+        <h1>Sociedade Anônima</h1>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="hacking.html">Hacking</a>
+        <a href="seguranca.html" class="active">Segurança</a>
+        <a href="hacktivismo.html">Hacktivismo</a>
+      </nav>
+
+      <div class="social">
+        <a href="https://www.instagram.com/sraineda?igsh=NjlxanpuaTRmZ3Vk" target="_blank" rel="external" title="Instagram"><img src="img/favicons/insta.svg" alt="Instagram"></a>
+        <a href="https://github.com/El-Bravo" target="_blank" rel="external" title="GitHub"><img src="img/favicons/github.svg" alt="GitHub"></a>
+        <a href="https://api.whatsapp.com/send?phone=553183918272" target="_blank" rel="external" title="WhatsApp"><img src="img/favicons/whatsapp.svg" alt="WhatsApp"></a>
+        <a href="#" title="TikTok"><img src="img/favicons/tiktok.svg" alt="TikTok"></a>
+        <div class="dropdown">
+    <button class="btn" id="btn-fale" data-hover="Fale Conosco (Fale com Brunno 😉)">
+      <span class="label">Fale Conosco</span> <span class="seta">▾</span>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.instagram.com/brunno_vieira._?utm_source=qr&igsh=am5ocG82N240MHJk" target="_blank" rel="external">Instagram</a>
+      <a href="https://github.com/El-Bravo" target="_blank" rel="external">GitHub</a>
+      <a href="https://api.whatsapp.com/send?phone=553193484068" target="_blank" rel="external">WhatsApp</a>
+      <a href="https://www.tiktok.com/@brunno_vieira_?_r=1&_t=ZS-917f8lQz9OS" target="_blank" rel="external">TikTok</a>
+    </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="seguranca-page" class="page page--security">
+  <header class="page-header container" role="banner">
+    <h1>🛡️ Segurança da Informação 👮‍♂️</h1>
+    <p class="lead">Pilares, controles, redes, web, criptografia e boas práticas.</p>
+  </header>
+
+  <!-- Pilares -->
+  <section class="container" aria-labelledby="pilares">
+    <h2 id="pilares">Pilares (CIA + extensões)</h2>
+    <ul class="hat-list">
+      <li><strong>Confidencialidade</strong> — acesso apenas a quem deve.</li>
+      <li><strong>Integridade</strong> — dados corretos e não alterados indevidamente.</li>
+      <li><strong>Disponibilidade</strong> — serviços acessíveis quando necessário.</li>
+      <li><strong>Autenticidade</strong> e <strong>Não-repúdio</strong> — identidade e responsabilização.</li>
+      <li><strong>Privacidade</strong> — proteção de dados pessoais e contexto legal (ex.: LGPD).</li>
+    </ul>
+  </section>
+
+  <!-- Controles essenciais -->
+  <section class="container" aria-labelledby="controles">
+    <h2 id="controles">Controles essenciais</h2>
+    <div class="card-grid">
+      <div class="card zoom">
+        <h3>Gestão de identidades</h3>
+        <p>MFA, senha forte, princípio do menor privilégio, revisão periódica de acessos.</p>
+      </div>
+      <div class="card zoom">
+        <h3>Hardening</h3>
+        <p>Inventário, patching, serviços mínimos, logs, backup e recuperação.</p>
+      </div>
+      <div class="card zoom">
+        <h3>Monitoramento</h3>
+        <p>Alertas, detecção, resposta a incidentes, testes de restauração.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Segurança de redes -->
+  <section class="container" aria-labelledby="redes">
+    <h2 id="redes">Segurança de redes</h2>
+    <ul class="hat-list">
+      <li>Segmentação (VLANs), controle de fronteira, firewall e listas de controle.</li>
+      <li>VPNs, TLS, políticas de Wi-Fi (WPA2/3, senhas fortes, isolamento de convidados).</li>
+      <li>Zero Trust: autenticar, autorizar e inspecionar continuamente.</li>
+    </ul>
+  </section>
+
+  <!-- Segurança Web -->
+  <section class="container" aria-labelledby="web">
+    <h2 id="web">Segurança Web (visão geral)</h2>
+    <ul class="hat-list">
+      <li>Entrada segura (validação/escape), controle de sessão, proteção CSRF.</li>
+      <li>Gestão de segredos (variáveis de ambiente, cofre), princípio do menor privilégio.</li>
+      <li>Boas práticas: cabeçalhos de segurança, HTTPS, logs e monitoramento.</li>
+    </ul>
+  </section>
+
+  <!-- Criptografia -->
+  <section class="container" aria-labelledby="cripto">
+    <h2 id="cripto">Criptografia em poucas linhas</h2>
+    <ul class="hat-list">
+      <li><strong>Em trânsito</strong> (TLS) e <strong>em repouso</strong> (armazenamento).</li>
+      <li><strong>Hash</strong> para integridade/senhas (com sal e fator de custo).</li>
+      <li><strong>Chaves</strong>: rotação, proteção e governança.</li>
+    </ul>
+  </section>
+
+  <!-- Boas práticas pessoais -->
+  <section class="container" aria-labelledby="pessoais">
+    <h2 id="pessoais">Boas práticas pessoais</h2>
+    <ul class="hat-list">
+      <li>Gerenciador de senhas e MFA em tudo que for possível.</li>
+      <li>Backup 3-2-1 (3 cópias, 2 mídias, 1 offsite) e testes de restauração.</li>
+      <li>Atualizações automáticas, cuidado com phishing, consciência situacional.</li>
+    </ul>
+  </section>
+</main>
+
+<!-- Botão e menu lateral retrátil -->
+  <button class="aside-handle" id="asideToggle" aria-label="Abrir painel de notícias" aria-expanded="false" aria-controls="leftPanel" title="Abrir menu">
+    ☰
+  </button>
+
+  <aside id="leftPanel" class="left-panel" aria-label="Painel de notícias">
+    <div class="astro-wrap" aria-hidden="true">
+      <img src="/assets/astronauta.svg" alt="Astronauta decorativo" loading="lazy">
+    </div>
+
+    <h3>📰 Últimas</h3>
+    <ul class="news-list">
+      <li><a href="#" target="_blank">Título da notícia 1</a></li>
+      <li><a href="#" target="_blank">Notícia 2</a></li>
+      <li><a href="#" target="_blank">Notícia 3</a></li>
+    </ul>
+  </aside>
+
+
+
+<!-- ASTRONAUTA FLUTUANTE (lado direito) -->
+<div class="side-astronauta" aria-hidden="true">
+  <img src="assets/img/novo.svg" alt="" class="astronauta">
+</div>
+  <footer>
+    <p>© 2025 Sociedade Anônima — Projeto Educativo — Feito por 
+    <span class="autor">Bruno</span>, 
+    <span class="autor">Dulce</span> e 
+    <span class="autor">Celi</span>
+  </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
